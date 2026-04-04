@@ -1,0 +1,19 @@
+For the initial MVP phase, I would propose the following deliverables:
+
+1.A trained object detection model capable of detecting banknotes and classifying their denomination from a camera feed (using a YOLO-based architecture).
+
+2.A real-time inference pipeline written in Python using OpenCV that processes frames from a webcam or video stream.
+
+3.Visual output showing bounding boxes and detected denomination labels on the video feed.
+
+4.A structured output (JSON/log) containing detection results per frame, which will make it easier to integrate tracking and event logic later.
+
+5.Well-organized code with modular components (detection module, video pipeline, output handler) so the system can later integrate tracking and behavioral analysis.
+
+
+To ensure future extensibility, the architecture will be designed with a modular pipeline:
+Camera → Detection Model → Object Metadata → Tracking/Event Layer (future)
+
+Estimated timeline for the MVP:
+Approximately 5–7 days, including dataset preparation/verification, model training, and real-time integration.Estimated cost for the initial phase:
+$150 fixed price for the MVP prototype.
